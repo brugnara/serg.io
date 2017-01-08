@@ -1,0 +1,200 @@
+/** 
+TODO:
+test in all browsers
+print css
+font size for all dpi
+ */
+
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+header {
+  background: #BFBAAB;
+}
+
+main {
+}
+
+footer {
+  background: #7F7C72;
+}
+
+a:link {
+  color: #2aa198;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #268bd2;
+}
+
+a:focus {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #839496;
+}
+
+.height-minor {
+  height: 10%;
+}
+
+.height-major {
+  height: 80%;
+}
+
+.flex-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-columns {
+  flex-direction: column;
+}
+
+.code-bg {
+  background: #eee8d5;;
+}
+
+.links {
+  display: flex;
+  height: 100%;
+  align-content: center;
+  justify-content: center;
+}
+
+.code {
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.comments {
+  color: #859900;
+}
+
+.comments::before {
+  content: '//';
+  padding-right: 20px;
+}
+
+.variable {
+  color: #268bd2;
+  font-style: italic;
+}
+
+.keyword {
+  color: #073642;
+}
+
+.chars {
+  color: #657b83;
+}
+
+.object-defn {
+  padding-left: 24px;
+}
+
+.object-prop-name {
+  color: #cb4b16;
+  display: inline-block;
+  width: 180px;
+}
+
+.object-prop-name::after {
+  content: ':';
+}
+
+.object-prop-value {
+  display: inline-block;
+}
+
+.object-prop {
+  height: 34px;
+  white-space: nowrap;
+}
+
+.object-prop img {
+  vertical-align: text-bottom;
+}
+
+.object-prop::after {
+  content: ',';
+  position: absolute;
+}
+
+.object-prop:last-child::after {
+  content: '';
+}
+
+.icon::before {
+  vertical-align: text-top;
+  padding-right: 5px;
+}
+
+.icon-twitter::before {
+  content: url("../img/twitter-icon.svg");
+}
+
+.icon-stackoverflow::before {
+  content: url("../img/stackoverflow-icon.svg");
+}
+
+.icon-linkedin::before {
+  content: url("../img/linkedin-icon.svg");
+}
+
+.icon-github::before {
+  content: url("../img/github-icon.svg");
+}
+
+@media print {
+  /** white background **/
+}
+
+@media screen and (max-width: 450px) {
+  .code {
+    font-size: 16px;
+  }
+  .object-prop-name {
+    width: 144px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .code {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .object-prop-name {
+    width: 124px;
+  }
+  .object-prop {
+    height: 30px;
+  }
+}
+
+
+@media screen and (max-width: 350px) {
+  .code {
+    font-size: 12px;
+    line-height: 26px;
+  }
+  .object-prop-name {
+    width: 108px;
+  }
+  .object-defn {
+    padding-left: 14px;
+  }
+  .object-prop {
+    height: 26px;
+  }
+}
