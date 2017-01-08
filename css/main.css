@@ -107,6 +107,7 @@ a:visited {
   color: #cb4b16;
   display: inline-block;
   width: 180px;
+  font-size: 18px;
 }
 
 .object-prop-name::after {
@@ -115,45 +116,27 @@ a:visited {
 
 .object-prop-value {
   display: inline-block;
+  font-size: 18px;
 }
 
 .object-prop {
   height: 34px;
   white-space: nowrap;
+  font-size: 0;
 }
 
 .object-prop img {
-  vertical-align: text-bottom;
+  vertical-align: text-top;
+  height: 24px;
 }
 
 .object-prop::after {
   content: ',';
-  position: absolute;
+  font-size: 18px;
 }
 
 .object-prop:last-child::after {
   content: '';
-}
-
-.icon::before {
-  vertical-align: text-top;
-  padding-right: 5px;
-}
-
-.icon-twitter::before {
-  content: url("../img/twitter-icon.svg");
-}
-
-.icon-stackoverflow::before {
-  content: url("../img/stackoverflow-icon.svg");
-}
-
-.icon-linkedin::before {
-  content: url("../img/linkedin-icon.svg");
-}
-
-.icon-github::before {
-  content: url("../img/github-icon.svg");
 }
 
 @media print {
@@ -161,7 +144,7 @@ a:visited {
 }
 
 @media screen and (max-width: 450px) {
-  .code {
+  .code, .object-prop-name, .object-prop-value, .object-prop-value::after {
     font-size: 16px;
   }
   .object-prop-name {
@@ -171,8 +154,10 @@ a:visited {
 
 @media screen and (max-width: 395px) {
   .code {
-    font-size: 14px;
     line-height: 30px;
+  }
+  .code, .object-prop-name, .object-prop-value, .object-prop-value::after {
+    font-size: 14px;
   }
   .object-prop-name {
     width: 124px;
@@ -185,8 +170,10 @@ a:visited {
 
 @media screen and (max-width: 350px) {
   .code {
-    font-size: 12px;
     line-height: 26px;
+  }
+  .code, .object-prop-name, .object-prop-value, .object-prop-value::after {
+    font-size: 12px;
   }
   .object-prop-name {
     width: 108px;

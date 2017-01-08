@@ -1,40 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 11.90625 11.90625"
-   version="1.1"
-   height="24"
    id="svg3969"
-   inkscape:version="0.92.0 r15299"
-   sodipodi:docname="linkedin-icon.svg">
+   version="1.1"
+   viewBox="0 0 12 12"
+   height="24">
   <defs
      id="defs3963" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="215"
-     inkscape:cy="-25.178572"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="3200"
-     inkscape:window-height="1675"
-     inkscape:window-x="-13"
-     inkscape:window-y="-13"
-     inkscape:window-maximized="1" />
   <metadata
      id="metadata3966">
     <rdf:RDF>
@@ -48,24 +24,19 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(61.137649,255.5067)">
+     transform="translate(61.137649,255.5067)"
+     id="layer1">
     <path
-       id="path22"
-       style="fill:#0977b6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.03307291"
        d="m -50.113123,-255.5067 h -10.146413 c -0.484337,0 -0.878113,0.38434 -0.878113,0.85782 v 10.18931 c 0,0.47413 0.393776,0.85912 0.878113,0.85912 h 10.146413 c 0.485114,0 0.881724,-0.38499 0.881724,-0.85912 v -10.18931 c 0,-0.47348 -0.39661,-0.85782 -0.881724,-0.85782"
-       inkscape:connector-curvature="0" />
+       style="fill:#0977b6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.03307291"
+       id="path22" />
     <path
-       id="path24"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.03307291"
        d="m -58.489232,-253.86764 c 0.565212,0 1.023438,0.45899 1.023438,1.02358 0,0.56535 -0.458226,1.02423 -1.023438,1.02423 -0.567148,0 -1.024484,-0.45888 -1.024484,-1.02423 0,-0.56459 0.457336,-1.02358 1.024484,-1.02358 m -0.884314,2.82463 h 1.767589 v 5.68169 h -1.767589 v -5.68169"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path26"
        style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.03307291"
+       id="path24" />
+    <path
        d="m -56.49775,-251.04301 h 1.692804 v 0.77629 h 0.02414 c 0.23538,-0.44685 0.811577,-0.91778 1.670844,-0.91778 1.786566,0 2.11703,1.17657 2.11703,2.70669 v 3.11649 h -1.764109 v -2.76274 c 0,-0.65888 -0.0129,-1.50677 -0.917873,-1.50677 -0.918964,0 -1.059127,0.71765 -1.059127,1.45895 v 2.81056 h -1.763712 v -5.68169"
-       inkscape:connector-curvature="0" />
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.03307291"
+       id="path26" />
   </g>
 </svg>
