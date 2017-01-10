@@ -14,14 +14,20 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
 <!--[if lte IE 9]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
   your browser</a> to improve your experience and security.</p>
 <![endif]-->
 
-<header class="height-minor">Sergio Annecchiarico - serg.io</header>
-<main class="height-major flex-centered flex-columns code-bg">
+<header class="height-minor line-minor padding-med">
+  <a href="https://serg.io"><span class="serg">serg</span><span class="io">io</span></a>
+  <span>annecchiarico</span>
+</header>
+
+<main class="height-major flex-around flex-columns code-bg">
+
   <section class="code">
     <div class="comments">Shamelessly self-referential</div>
     <div>
@@ -68,11 +74,19 @@
     </div>
     <div>}</div>
   </section>
+
+  <section class="about-me">
+    I'm Sergio Annecchiarico and you've found my the root page for my serg.io domain.
+  </section>
+
 </main>
-<footer class="height-minor"></footer>
+
+<footer class="height-minor line-minor">
+  <div class="padding-med footer-byline">Looking for my consulting company?</div>
+</footer>
 
 <!-- TODO: google analytics -->
 <!-- TODO: check accessibility -->
-<!-- TODO: fix font aliasing on IE -->
+<!-- TODO: check all media break points again - looks a bit odd at 375 px width -->
 </body>
 </html>

@@ -5,6 +5,27 @@ print css
 font size for all dpi
  */
 
+/**
+BFF1E6
+B895BB
+7078A1
+D5D9EE
+6E6C63
+
+
+
+    background: #BFF1E6;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 10%;
+    padding-right: 40px;
+    padding-left: 30px;
+    clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+
+
+ */
+
 body {
   position: absolute;
   top: 0;
@@ -14,7 +35,8 @@ body {
 }
 
 header {
-  background: #BFBAAB;
+  font-family: Tahoma, sans-serif;
+  font-size: 24px;
 }
 
 main {
@@ -24,22 +46,9 @@ footer {
   background: #7F7C72;
 }
 
-a:link {
-  color: #2aa198;
+a {
   text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #268bd2;
-}
-
-a:focus {
-  text-decoration: underline;
-}
-
-a:visited {
-  color: #839496;
+  color: inherit;
 }
 
 .height-minor {
@@ -50,9 +59,15 @@ a:visited {
   height: 80%;
 }
 
-.flex-centered {
+.flex-between {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -60,8 +75,42 @@ a:visited {
   flex-direction: column;
 }
 
+.footer-byline {
+  display: inline-block;
+  background: #7078A1;
+  color: #FFFFFE;
+}
+
+.padding-med {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.line-minor {
+  line-height: 10vh;
+}
+
+.header-title {
+  background: #7078A1;
+  color: #fffffe;
+}
+
+.serg {
+  color: #073642;
+}
+
+.io {
+  font-family: Inconsolata, Consolas, monospace;
+  font-style: italic;
+  color: #268bd2;
+  font-size: 32px;
+  line-height: 24px;
+  vertical-align: text-bottom;
+}
+
 .code-bg {
-  background: #eee8d5;;
+  background: #eee8d5;
+  background-image: linear-gradient(#eee8d5, #DDD7C6 70%);
 }
 
 .links {
@@ -101,6 +150,24 @@ a:visited {
 
 .object-defn {
   padding-left: 24px;
+}
+
+.object-defn a:link {
+  color: #2aa198;
+  text-decoration: none;
+}
+
+.object-defn a:hover {
+  text-decoration: underline;
+  color: #268bd2;
+}
+
+.object-defn a:focus {
+  text-decoration: underline;
+}
+
+.object-defn a:visited {
+  color: #839496;
 }
 
 .object-prop-name {
@@ -150,11 +217,23 @@ a:visited {
   content: '';
 }
 
+.about-me {
+}
+
 @media print {
   /** white background **/
 }
 
 @media screen and (max-width: 450px) {
+  header {
+    font-size: 18px;
+  }
+
+  .io {
+    font-size: 22px;
+    line-height: 18px;
+  }
+
   .code, .object-prop-name, .object-prop-value, .object-prop-value::after {
     font-size: 16px;
   }
@@ -165,6 +244,7 @@ a:visited {
 }
 
 @media screen and (max-width: 395px) {
+
   .code {
     line-height: 30px;
   }
@@ -174,7 +254,7 @@ a:visited {
   }
 
   .object-prop-name {
-    width: 124px;
+    width: 135px;
   }
 
   .object-prop {
@@ -183,6 +263,10 @@ a:visited {
 }
 
 @media screen and (max-width: 350px) {
+  header {
+    font-size: 16px;
+  }
+
   .code {
     line-height: 26px;
   }
