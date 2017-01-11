@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://serg.io/</loc>
+  <priority>0.5</priority>
+  <lastmod>2013-04-15T21:00:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://serg.io/blog/</loc>
+  <priority>1</priority>
+  <lastmod>2007-09-01T21:00:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://serg.io/blog/labels/continuous integration.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-09-01T21:00:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://serg.io/blog/2007/08/hudson-great-for-when-you-need.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-09-01T21:00:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://serg.io/blog/labels/config.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-09-01T21:00:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://serg.io/blog/labels/java.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2007-09-01T21:00:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://serg.io/blog/labels/spring.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-09-01T21:00:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://serg.io/blog/2007/08/java-application-config-choices.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-09-01T21:00:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://serg.io/blog/labels/testing.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-09-01T21:00:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://serg.io/blog/2007/05/easy-transactional-dao-junit-tests.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-09-01T21:00:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://serg.io/blog/2007_05_01_archive.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-09-01T21:00:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://serg.io/blog/2007_08_01_archive.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-09-01T21:00:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>

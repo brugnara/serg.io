@@ -1,0 +1,7 @@
+#
+# serg.io robots.txt file
+#
+
+User-agent: *
+Disallow: /private
+
